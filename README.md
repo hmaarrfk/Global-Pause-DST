@@ -1,4 +1,4 @@
- #Global Pause Staging
+ # Global Pause Staging
 
 Add the option to pause the game from the start menu.
 Only admins may unpause.
