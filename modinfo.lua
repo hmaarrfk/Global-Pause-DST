@@ -65,7 +65,7 @@ On Klei: http://forums.kleientertainment.com/files/file/1579-global-pause-dst/
 On Steam: http://steamcommunity.com/sharedfiles/filedetails/?id=758532836
 ]]
 author = "hmaarrfk"
-version = "1.3.2"
+version = "1.4.0"
 
 forumthread = "/files/file/1579-global-pause-dst/"
 
