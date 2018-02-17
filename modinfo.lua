@@ -36,6 +36,9 @@ Thanks to:
   Droozo Qoocla
 for multiplayer testing.
 
+v1.4.0
+Zarklord: Updated the pause menu for the Redux update.
+
 v1.3.2
 Non-admin pause. Comments in the code explain why non-admins may not unpause.
 
