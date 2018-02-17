@@ -1,5 +1,10 @@
-name = "Global Pause Staging"
-description = [[Add the option to pause the game from the start menu.
+name = "Global Pause"
+description = [[Mod creator: I am not updating this mod. Use at your own risk.
+The source is available. Feel free to modify it to get it to work again. I will upload it and credit you :D.
+
+Apparently this conflicts with "item info"
+
+Add the option to pause the game from the start menu.
 Only admins may unpause.
 
 Features:
@@ -36,6 +41,9 @@ Thanks to:
   Droozo Qoocla
 for multiplayer testing.
 
+v1.4.1
+Fixed the name of the Mod.
+
 v1.4.0
 Zarklord: Updated the pause menu for the Redux update.
 
@@ -63,9 +71,10 @@ I have no idea what fixed this...
 
 On Klei: http://forums.kleientertainment.com/files/file/1579-global-pause-dst/
 On Steam: http://steamcommunity.com/sharedfiles/filedetails/?id=758532836
+On Github: https://github.com/hmaarrfk/Global-Pause-DST
 ]]
 author = "hmaarrfk"
-version = "1.4.0"
+version = "1.4.1"
 
 forumthread = "/files/file/1579-global-pause-dst/"
 
