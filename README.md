@@ -1,4 +1,9 @@
- # Global Pause Staging
+ # Global Pause
+Note from the creator:
+Mod creator: I am not updating this mod. Use at your own risk.
+The source is available. Feel free to modify it to get it to work again. I will upload it and credit you :D.
+
+Apparently this conflicts with "item info".
 
 Add the option to pause the game from the start menu.
 Only admins may unpause.
@@ -37,8 +42,11 @@ Thanks to:
   Droozo Qoocla
 for multiplayer testing.
 
+v1.4.1
+Fixed the name of the Mod and Zarklord's name.
+
 v1.4.0
-Zacklord: Redux pause menu.
+Zarklord: Redux pause menu.
 
 v1.3.2
 Non-admin pause. Comments in the code explain why non-admins may not unpause.
@@ -64,3 +72,4 @@ I have no idea what fixed this...
 
 On Klei: http://forums.kleientertainment.com/files/file/1579-global-pause-dst/
 On Steam: http://steamcommunity.com/sharedfiles/filedetails/?id=758532836
+On Github: https://github.com/hmaarrfk/Global-Pause-DST
