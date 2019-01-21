@@ -3,44 +3,40 @@ Note from the creator:
 Mod creator: I am not updating this mod. Use at your own risk.
 The source is available. Feel free to modify it to get it to work again. I will upload it and credit you :D.
 
-Apparently this conflicts with "item info".
-
 Add the option to pause the game from the start menu.
-Only admins may unpause.
 
 Features:
 - Pause from the start menu (admin only)
-- Hotkey to toggle pause (default "P", default disabled)
-- Non admins may now pause, but not unpause (default disabled)
-- Pause when map is open (default disabled)
-- Pause when console is open (default disabled)
+- Vote to pause from the start menu (everyone else, not yet implemented)
+- Hotkey to toggle pause (default "P", default disabled, admin only)
+- Pause when map is open (default disabled, singleplayer only)
+- Pause when console is open (default disabled, singleplayer only)
 
-Known quirks:
-- If you paused from the menu, then go to run a command, you will see a tiny bit of time passing when you press enter.
-  This is unavoidable. Without unpausing for that tiny amount of time, I cannot allow the command to run and the game will hang.
+When joining a server that is "paused" youll be stuck at the connecting screen, I cannot do anything to fix this.
 
 Known bugs:
-- Sometimes things keep moving. So strange.
-- If the game is paused and the admins leave, there is no way to unpause. Somebody would have to issue the server command GPTogglePause() on the server console.
 - I don't know what happens if a player joins and the game is paused.
 
 Future improvements:
+Useful for multi player:
+- vote to (un)pause, which allows servers without an admin present to pause(and unpause) the game.
 Useful for single player:
 - Option for AutoPause/AutoUnPause on crafting/inventory
-
-Things that might be impossible:
-- Non admin unpause
-
-When the server pauses, most communication is blocked between the clients and
-the server. An admin may execute code on the server which bypasses these
-limitations. This is what enables the admin to unpause the game. For this
-reason, I don't think that vote to unpause or a normal player unpausing will
-ever be possible. If you find a way, and want to submit a patch, please do.
 
 Thanks to:
   pennykid
   Droozo Qoocla
+  SKKiro
 for multiplayer testing.
+
+v1.5.0
+Improved compatibility with other mods that mess with the pausescreen.
+Clients pause properly, no more rain particles building up on clients!
+Servers pause properly, no more desyncing servers by pausing in caves, 
+this mod now makes use of GemCore to make pausing on any shard possible, 
+pause the whole server, and not just the current shard.
+Made servers automaticaly unpause, when the last player leaves the game.
+Console and Chat no longer hang or cause the server to(temporarily) unpause.
 
 v1.4.1
 Fixed the name of the Mod and Zarklord's name.
