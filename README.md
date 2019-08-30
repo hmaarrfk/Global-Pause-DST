@@ -1,6 +1,7 @@
- # Global Pause
+# Global Pause
+
 Note from the creator:
-Mod creator: I am not updating this mod. Use at your own risk.
+I am not updating this mod. Use at your own risk.
 The source is available. Feel free to modify it to get it to work again. I will upload it and credit you :D.
 
 Add the option to pause the game from the start menu.
@@ -12,10 +13,8 @@ Features:
 - Pause when map is open (default disabled, singleplayer only)
 - Pause when console is open (default disabled, singleplayer only)
 
-When joining a server that is "paused" youll be stuck at the connecting screen, I cannot do anything to fix this.
-
 Known bugs:
-- I don't know what happens if a player joins and the game is paused.
+- When joining a server that is "paused" youll be stuck at the connecting screen, I cannot do anything to fix this.
 
 Future improvements:
 Useful for multi player:
@@ -28,6 +27,9 @@ Thanks to:
   Droozo Qoocla
   SKKiro
 for multiplayer testing.
+
+v1.5.1
+Add Chinese translations. (by cometeme)
 
 v1.5.0
 Improved compatibility with other mods that mess with the pausescreen.

@@ -109,6 +109,17 @@ end
 configuration_options =
 {
     {
+        name = "LANGUAGE",
+        label = "Language",
+        options =
+        {
+            {description="English", data = "en"},
+            {description="中文", data = "zh"},
+            -- you can add more language here, and then modify modmain.lua
+        },
+        default = "en",
+    },
+    {
         name = "ENABLEHOTKEY",
         label = "Use hotkey",
         options = {
